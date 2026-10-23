@@ -7,6 +7,7 @@ export const config={
   "publisher": "RushLabs",
   "supportEmail": "june1012june@gmail.com",
   "checkedAt": "2026-10-22",
+  "privacyUpdatedAt": "2026-10-24",
   "examUrl": "https://www.q-net.or.kr/crf005.do?id=crf00503s02&gSite=Q&gId=&jmCd=9502&jmInfoDivCcd=B0",
   "hostingPrivacyUrl": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
 };
@@ -129,11 +130,11 @@ export const copy={
       "선지별 근거 비교와 계산·개념 복습"
     ],
     "scopeNote": "위 항목은 학습 범위의 요약입니다. 최종 문항 구성과 기능은 검수·구현 중이며, 전체 콘텐츠나 스토어 출시가 완료되었다는 의미는 아닙니다.",
-    "privacyIntro": "출시 준비 중인 로컬 학습 앱의 예정된 데이터 처리 범위입니다. 최종 배포본이 달라지면 공개 전에 이 문서를 갱신합니다.",
+    "privacyIntro": "이 문서는 앱과 안내 웹사이트의 데이터 처리 방식을 설명합니다. 처리 범위가 변경되면 이 문서도 함께 갱신합니다.",
     "privacySections": [
       [
         "기기의 학습 데이터",
-        "학습 진도, 답변 이력과 저장 문항을 기기에 보관하는 로컬 중심 구조를 준비하고 있습니다. RushLabs 계정이나 학습 답안을 서버에 동기화하는 서비스를 제공하지 않는 방향입니다."
+        "앱이 저장하는 학습 진도, 답변 이력, 저장 문항, 메모와 연습 초안은 기기에 보관됩니다. RushLabs 계정을 요구하거나 학습 내용을 RushLabs 서버에 전송·동기화하지 않습니다."
       ],
       [
         "직접 선택하는 백업",
@@ -141,11 +142,11 @@ export const copy={
       ],
       [
         "선택하는 알림",
-        "알림은 기기 권한과 앱 설정에 따라 사용자가 선택하는 기능으로 준비합니다. 잠금화면의 문제 내용은 기본적으로 숨기고 명시적으로 켜는 구성을 적용합니다."
+        "알림은 기기 권한과 앱 설정에 따라 선택하여 사용합니다. 기기에 예약된 알림의 잠금화면 표시 여부는 운영체제의 알림 설정에서도 조절할 수 있습니다."
       ],
       [
         "구매와 삭제",
-        "일회 구매·환불·구매 이력은 출시되는 스토어에서 처리합니다. 카드 정보를 RushLabs가 받는 결제 폼은 없습니다. 앱·기기 설정에서 로컬 자료를 지우거나 앱을 삭제할 수 있으며 내보낸 백업은 별도로 삭제해야 합니다."
+        "앱 구매·환불·구매 이력은 앱을 다운로드한 스토어에서 처리합니다. RushLabs가 카드 정보를 직접 받는 결제 폼은 없습니다. 앱·기기 설정에서 로컬 자료를 지우거나 앱을 삭제할 수 있으며 내보낸 백업은 별도로 삭제해야 합니다."
       ],
       [
         "이 웹사이트",
@@ -317,11 +318,11 @@ export const copy={
       "Option explanations, calculations and concept review"
     ],
     "scopeNote": "This is a study-scope summary. Content and features are still being reviewed and implemented; it does not mean that the full question bank or store release is complete.",
-    "privacyIntro": "The intended data handling of a local-study app being prepared for launch. This policy will be updated before public release if the final app changes.",
+    "privacyIntro": "This policy explains how the app and its information website handle data. We update it when that handling changes.",
     "privacySections": [
       [
         "Local study information",
-        "The planned app stores progress, answer history and saved questions on your device. It is being prepared without a RushLabs account or a service that synchronises learning answers to our servers."
+        "Study progress, answer history, saved questions, notes and practice drafts saved by the app stay on your device. The app does not require a RushLabs account or transmit or synchronise your study content to RushLabs servers."
       ],
       [
         "Backups you choose",
@@ -329,11 +330,11 @@ export const copy={
       ],
       [
         "Optional reminders",
-        "Reminders are being prepared as an optional feature controlled by device permissions and app settings. Question text on the lock screen is hidden by default and requires an explicit choice to show it."
+        "Reminders are optional and depend on device permissions and app settings. You can also control whether scheduled notifications appear on the lock screen through operating-system notification settings."
       ],
       [
         "Purchases and deletion",
-        "The release store handles one-time purchases, refunds and purchase history. This site has no payment form collecting card details for RushLabs. Local data can be cleared through the app or device, or by uninstalling; exported files must be managed separately."
+        "The store from which you download the app handles purchases, refunds and purchase history. RushLabs has no payment form collecting card details directly. Local data can be cleared through the app or device, or by uninstalling; exported files must be managed separately."
       ],
       [
         "This website",
